@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+  background-image: url('../img/blue-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Numans', sans-serif;
+  height: 100vh;
+  }
+
+  /* :host {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  } */
+
+.jumbotron{
+  padding: 45px 0px;
+  background-color: rgb(50, 58, 59);
+  color: white;
+  opacity: 1.0;
+}
+
+.hover-cursor{
+    cursor: pointer;
+ }
+
+ #greeting{
+    color: white !important;
+    padding: 20px; 
+ }
+
+ #add{
+   background-color: rgb(50, 58, 59);
+   color: beige;
+   font-size: 25px;
+   padding: 6px;
+   border-radius: 5px;
+ }
+ .fade-in:active {
+   animation: fadeIn ease 5s;
+   -webkit-animation: fadeIn ease 5s;
+   -moz-animation: fadeIn ease 5s;
+   -o-animation: fadeIn ease 5s;
+   -ms-animation: fadeIn ease 5s;
+ }
+ 
+ 
+ @keyframes fadeIn{
+   0% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+   }
+ }
+ 
+ @-moz-keyframes fadeIn {
+   0% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+   }
+ }
+ 
+ @-webkit-keyframes fadeIn {
+   0% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+   }
+ }
+ 
+ @-o-keyframes fadeIn {
+   0% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+   }
+ }
+ 
+ @-ms-keyframes fadeIn {
+   0% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+   }
+ }
+ 

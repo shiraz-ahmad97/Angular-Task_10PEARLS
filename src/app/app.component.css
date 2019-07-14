@@ -1,0 +1,7 @@
+html,body{
+    background-image: url('../app/img/blue-bg.png') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    }

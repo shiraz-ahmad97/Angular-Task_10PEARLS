@@ -1,0 +1,29 @@
+[33mcommit 2294c3ad329b6386c69f53fa8dabcbe3d2ff4193[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Syed Shiraz Ahmad <32748328+shiraz-ahmad97@users.noreply.github.com>
+Date:   Sun Jul 14 21:00:06 2019 +0500
+
+    Update README.md
+
+[33mcommit 3eb8a2c1aaa87fd241deb866af5e22adc83e5033[m
+Author: jwatmore <jason.watmore@hotmail.com>
+Date:   Thu Feb 21 14:03:56 2019 -0800
+
+    npm audit fix
+
+[33mcommit 494e7986dc4662b2a14271aee11b79927fd5a203[m
+Author: jwatmore <jason.watmore@hotmail.com>
+Date:   Thu Feb 21 13:53:59 2019 -0800
+
+    added MIT license
+
+[33mcommit 0d4765b30b2b267a70bc66e0e7ea9043da209bb2[m
+Author: Jason Watmore <jason@pointblankdevelopment.com.au>
+Date:   Sun Nov 4 12:08:31 2018 +1100
+
+    updated readme
+
+[33mcommit a29d8a3c3ea17d7a7bc796d5e645f75395d837e2[m
+Author: Jason Watmore <jason@pointblankdevelopment.com.au>
+Date:   Sun Nov 4 12:05:46 2018 +1100
+
+    Initial commit

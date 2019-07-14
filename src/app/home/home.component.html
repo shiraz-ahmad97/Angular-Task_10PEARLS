@@ -1,0 +1,35 @@
+﻿
+<body>
+<div class="container-fluid">
+        <h1 id="greeting">Hi {{currentUser.firstName}}!</h1>
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="jumbotron">
+                <h3 class=text-center>To Do List Manager</h3>
+            </div>
+
+            <div class="input-group">
+                <input type="text" placeholder="What to do?" class="form-control" #itemTitle>
+                <div class="input-group-addon hover-cursor fade-in" (click)="onAdd(itemTitle)">
+                    <i id="add" class="fa fa-plus-circle fa-2x"></i>        
+                </div>
+            </div>
+
+            <div style="margin:5px 0px">
+                <ul class="list-group">
+                    <li class="list-group-item" *ngFor="let item of toDoListArray">
+                        <span class="hover-cursor" [class.text-success]="item.isChecked" (click)="alterCheck(item.$key,item.isChecked)">
+                            <i class="fa fa-lg" [ngClass]="item.isChecked?'fa-check-circle-o':'fa-circle-thin'"></i>
+                        </span>
+                        {{item.title}}
+                        <span class="hover-cursor text-danger pull-right" (click)="onDelete(item.$key)">
+                            <i class="fa fa-trash-o fa-lg"></i>
+                        </span>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
